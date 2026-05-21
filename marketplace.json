@@ -1,0 +1,10 @@
+{
+  "name": "zlljock-lwx-cc-plugins",
+  "plugins": [
+    {
+      "name": "mysql-reader",
+      "description": "Claude MCP plugin for MySQL queries",
+      "path": "./plugins/mysql-reader"
+    }
+  ]
+}

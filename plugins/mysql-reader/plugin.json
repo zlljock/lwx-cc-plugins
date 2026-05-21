@@ -1,0 +1,11 @@
+{
+  "name": "mysql-reader",
+  "version": "1.0.0",
+  "description": "MySQL MCP Plugin",
+  "author": "yourname",
+
+  "mcp": {
+    "command": "node",
+    "args": ["server.js"]
+  }
+}
