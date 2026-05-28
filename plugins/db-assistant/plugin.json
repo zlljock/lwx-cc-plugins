@@ -1,0 +1,18 @@
+{
+  "name": "db-assistant",
+  "version": "1.0.0",
+  "description": "MySQL read-only database assistant MCP plugin. Provides tools for listing databases, tables, viewing schemas, querying data, analyzing indexes and foreign key relations.",
+  "author": "zlljock",
+
+  "mcp": {
+    "command": "node",
+    "args": ["server.js"],
+    "env": {
+      "MYSQL_HOST": "",
+      "MYSQL_PORT": "3306",
+      "MYSQL_USER": "",
+      "MYSQL_PASSWORD": "",
+      "MYSQL_DATABASE": ""
+    }
+  }
+}

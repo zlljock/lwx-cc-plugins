@@ -5,6 +5,11 @@
       "name": "mysql-reader",
       "description": "Claude MCP plugin for MySQL queries",
       "path": "./plugins/mysql-reader"
+    },
+    {
+      "name": "db-assistant",
+      "description": "MySQL read-only database assistant with schema browsing, safe queries, index and relation analysis",
+      "path": "./plugins/db-assistant"
     }
   ]
 }
