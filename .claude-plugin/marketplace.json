@@ -1,15 +1,22 @@
 {
   "name": "zlljock-lwx-cc-plugins",
+  "owner": {
+    "name": "zlljock",
+    "email": "hettlerwani612@gmail.com"
+  },
+  "metadata": {
+    "description": "MySQL database assistant plugins for Claude Code",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
-      "name": "mysql-reader",
-      "description": "Claude MCP plugin for MySQL queries",
-      "path": "./plugins/mysql-reader"
-    },
-    {
       "name": "db-assistant",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zlljock/lwx-cc-plugins.git"
+      },
       "description": "MySQL read-only database assistant with schema browsing, safe queries, index and relation analysis",
-      "path": "./plugins/db-assistant"
+      "version": "1.0.0"
     }
   ]
 }
